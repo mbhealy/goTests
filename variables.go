@@ -27,4 +27,10 @@ func main() {
 	// g := int 42 is incorrect
 	// g := 42 int is incorrect
 	// the only type declaration is the value itself
+
+	var i, j int = 1, 2
+	k := 3
+	C, python, java := true, false, "no!"
+
+	fmt.Println(i, j, k, C, python, java)
 }
